@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDoList</title>
+</head>
+<link rel="stylesheet" href="ToDoList.css">
+<style>
+    body {
+        background-color: rgb(255, 255, 255);
+    }
+
+    * {
+        font-style: italic;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-weight: 600;
+        margin: 20px;
+        padding: 20px;
+    }
+</style>
+
+<body>
+
+    <div class=Box>
+        <h1>To Do List</h1>
+        <div class=inputContainer>
+            <input type="text" id="taskInput" placeholder="Add a new task...">
+            <button id="addTaskButton">Add Task</button>
+        </div>
+        <ul id="ToDoList">
+
+
+        </ul>
+    </div>
+    <script src="ToDoList.js"></script>
+</body>
+
+</html>
