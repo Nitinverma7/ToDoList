@@ -24,14 +24,4 @@ ToDoList.js        # JavaScript logic
 BackGround.jpg     # Background image
 ```
 
-## Screenshot
-
-_Add a screenshot here if you want!_
-
-## Credits
-
 Made by Nitin Verma
-
----
-
-Feel free to improve or customize this ToDo List!
